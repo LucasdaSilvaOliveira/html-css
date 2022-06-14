@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('../desafio010/fontes/idroid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&display=swap' );
+
+:root{
+    --cor1: #5f9bfc83;
+    --cor2: #1664E0;
+    --cor3: #114DAD;
+    --cor4: #0A2B61;
+    --cor5: #3C4A61;
+}
+
+body {
+     background-color: var(--cor1);
+     margin: 0px;
+
+     }
+header {
+    background-image: linear-gradient(to bottom, #5288dd, #16499b);
+    color: white;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    }
+    header h1 {
+        font-size: 50px;
+        text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.452);
+    }
+    header p {
+        font-size: 25px;
+        text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.452);
+    }
+nav {
+    background-color: var(--cor4);
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.377);
+    }
+    nav > a {
+        color: white;
+        text-decoration: none;
+        padding-right: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    nav > a:hover {
+        background-color: #a2b3cf;
+        border-radius: 5px;
+        color: #11479e;
+        padding: 10px 15px 11px 15px;
+        transition-duration: 0.3s;
+    }
+    main {
+        background-color: white;
+        margin: auto;
+        padding: 10px 0px 10px 0px;
+        min-width: 280px;
+        max-width: 1000px;
+    }
+    main h1 {
+        font-family: 'idroid';
+        color: #103d86;
+        font-size: 35px;
+        text-indent: 5px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.452);
+        padding: 10px;
+    }
+    main > p {
+        font-family: 'Tai Heritage Pro', serif;
+        text-align: justify;
+        font-size: 20px;
+        text-indent: 30px;
+        padding: 10px;
+    }
+    main h2 {
+        color: #103d86;
+        font-size: 25px;
+        text-indent: 5px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.548);
+        padding: 10px;
+    }
+    img {
+        max-width: 600px;
+        display: block;
+        margin: auto;
+    }
+    #video {
+        background-color: #114DAD;
+        display: block;
+        text-align: center;
+        padding: 20px 40px 20px 40px;
+        margin: 20px 0px 20px 0px;
+    }
+    iframe {
+        width: 100%;
+        
+    }
+    .bugdroid {
+        max-width: 350px;
+        display: block;
+        margin: auto;
+    }
+    main h3 {
+        background-color: #103d86;
+        color: white;
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 5px 5px 0px 0px;
+        margin: 10px 20px 0px 20px;
+    }
+    .ultima {
+        background-color: #507dc5e1;
+        font-family: 'Tai Heritage Pro', serif;
+        font-size: 20px;
+        text-indent: 30px;
+        padding: 10px;
+        margin: 0px 20px 10px 20px;
+        border-radius: 0px 0px 5px 5px;
+    }
+ul {
+    columns: 2;
+    list-style-type: square;
+}
+.final {
+    text-align: center;
+    background-color: #0A2B61;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.linkvideo {
+    text-decoration: none;
+    color: white;
+}
+.linkvideo:hover {
+    color: #5178b6;
+    text-decoration: underline;
+}
